@@ -2,11 +2,22 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppFlix.Categorias.Aventura"
-             Title="Aventura">
+             Title="Aventura"
+             BackgroundColor="#2f2f30">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300" 
+                      ColumnDefinitions="*, *"
+                      Padding="5">
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
+                             Source="duna.jpg" x:Name="btnDuna" 
+                             Clicked="btnDuna_Clicked" />
+                
+                
+                <ImageButton Grid.Column="1" Grid.Row="0" Source="barbie.jpg" x:Name="btnBarbie" />
+                <ImageButton Grid.Column="0" Grid.Row="1" Source="oppenheimer.jpg" x:Name="btnOppen" />
+                <ImageButton Grid.Column="1" Grid.Row="1" Source="conan.jpg" x:Name="btnConan" />
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>

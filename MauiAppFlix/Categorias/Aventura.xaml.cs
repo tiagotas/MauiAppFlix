@@ -6,4 +6,17 @@ public partial class Aventura : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnDuna_Clicked(object sender, EventArgs e)
+    {
+        try
+        {
+            Navigation.PushAsync(new Filmes.Duna());
+
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("Ops", ex.Message, "OK");
+        }
+    }
 }
