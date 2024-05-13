@@ -11,8 +11,7 @@
                       Padding="5">
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" 
                              Source="duna.jpg" x:Name="btnDuna" 
-                             Clicked="btnDuna_Clicked" />
-                
+                             Clicked="btnDuna_Clicked" />      
                 
                 <ImageButton Grid.Column="1" Grid.Row="0" Source="barbie.jpg" x:Name="btnBarbie" />
                 <ImageButton Grid.Column="0" Grid.Row="1" Source="oppenheimer.jpg" x:Name="btnOppen" />

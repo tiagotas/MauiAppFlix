@@ -74,6 +74,12 @@
 	  <MauiXaml Update="Categorias\Aventura.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\Barbie.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\Conan.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\Duna.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
